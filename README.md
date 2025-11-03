@@ -19,7 +19,7 @@ The AI model evaluates the event, performs IOC enrichment, maps it to MITRE ATT&
 **Flow:**  
 Splunk → n8n (Webhook) → Gemini 2.5 Flash → Slack  
 
-![Workflow Diagram](workflow_diagram.png)
+![Workflow Diagram](screenshots/workflow_diagram.png)
 
 **Components:**
 - **Splunk Enterprise 10.0.1** – SIEM for event detection  
@@ -34,11 +34,13 @@ Splunk → n8n (Webhook) → Gemini 2.5 Flash → Slack
 
 1. **Detection:**  
    Splunk identifies EventCode 4625 (failed RDP logins).
+   
+![Splunk Output](screenshots/splunk_output.png)
 
-2. **Automation Trigger:**  
+3. **Automation Trigger:**  
    Splunk sends alert via webhook to n8n.
 
-3. **AI Analysis:**  
+4. **AI Analysis:**  
    n8n forwards alert details to Gemini API, which returns:  
    - Event summary and context  
    - IOC enrichment  
@@ -46,7 +48,7 @@ Splunk → n8n (Webhook) → Gemini 2.5 Flash → Slack
    - Threat severity  
    - Recommended actions
 
-4. **Response:**  
+5. **Response:**  
    The AI-generated report is automatically posted to a dedicated Slack channel for SOC visibility.
 
 ---
