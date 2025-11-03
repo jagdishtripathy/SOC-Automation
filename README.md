@@ -2,6 +2,12 @@
 
 An AI-powered Security Operations Center (SOC) automation project that integrates **Splunk**, **n8n**, and **Gemini 2.5 Flash (Google AI)** to automatically analyze, enrich, and summarize security alerts in real time.
 
+![Platform](https://img.shields.io/badge/Platform-Splunk%20%7C%20n8n-blue?style=for-the-badge&logo=splunk&logoColor=white)
+![AI Model](https://img.shields.io/badge/AI-Gemini%202.5%20Flash-orange?style=for-the-badge&logo=google&logoColor=white)
+![Automation](https://img.shields.io/badge/Automation-n8n-lightgrey?style=for-the-badge&logo=n8n&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+> “Turning Security Alerts into Actionable Insights through AI-Powered SOC Automation.”
+
 ---
 
 ## Project Overview
@@ -94,7 +100,7 @@ Splunk → n8n (Webhook) → Gemini 2.5 Flash → Slack
 
 ## 📄 License
 
-This project is open-sourced under the **MIT License**.  
+This project is open-sourced under the **[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/jagdishtripathy/SOC-Automation/blob/main/LICENSE)**.  
 You are free to use and modify it for educational and non-commercial purposes.
 
 ---
