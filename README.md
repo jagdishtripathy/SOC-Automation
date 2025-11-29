@@ -78,14 +78,6 @@ Splunk → n8n (Webhook) → Gemini 2.5 Flash → Slack
 
 ---
 
-## 🔮 Future Enhancements
-
-- Integration with **Threat Intelligence APIs** (AbuseIPDB, VirusTotal, Shodan)  
-- Automated remediation (firewall blocking, account disabling)  
-- Daily summary reports and dashboards  
-
----
-
 ## 🧰 Tech Stack
 
 | Component | Purpose |
